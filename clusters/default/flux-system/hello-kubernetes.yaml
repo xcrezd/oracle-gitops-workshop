@@ -15,4 +15,7 @@ spec:
       interval: 1m
   targetNamespace: default
   values:
-    message: Hello from GitHub V2!
+    message: This is new one
+  valuesFrom:
+  - kind: ConfigMap
+    name: myconfig
