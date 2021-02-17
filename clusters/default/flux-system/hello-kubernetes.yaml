@@ -16,8 +16,6 @@ spec:
   targetNamespace: default
   values:
     message: This is new one
-    image:
-      repository: not-exists
   valuesFrom:
   - kind: ConfigMap
     name: myconfig
