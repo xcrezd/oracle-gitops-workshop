@@ -15,4 +15,4 @@ spec:
       interval: 1m
   targetNamespace: default
   values:
-    message: Hello from GitHub!
+    message: Hello from GitHub V2!
